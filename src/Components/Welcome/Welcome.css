@@ -1,0 +1,60 @@
+.welcome{
+    width: 80vw;
+    border-radius: 100px;
+    box-shadow: 50px 50px 80px 10px rgb(136, 132, 132);
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.welcome-logo > img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 10px blue, inset 0px 0px 10px blue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.welcome-text{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span{
+    font-size: 50px;
+    color: rgb(34, 34, 162);
+    text-shadow: 0px 0px 10px rgb(48, 199, 233);
+}
+
+.child-1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.child-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child-1 > h1{
+    font-size: 50px;
+}
+
+.child-1 > p{
+    color: rgb(78, 75, 75);
+    text-align: justify;
+    font-size: 20px;
+    overflow: scroll;
+}
+
+.info > h6{
+    font-size: 25px;
+}

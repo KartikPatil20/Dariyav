@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100vw;
+    background-color: rgba(182, 189, 191, 0.362);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

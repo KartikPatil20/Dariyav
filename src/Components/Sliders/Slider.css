@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Hero-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.Hero{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 50px 50px 80px 10px rgb(136, 132, 132), inset 0px -80px 100px rgb(79, 69, 69);
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.8s ease;
+    opacity: 1;
+}
+
+
+.hero-img{
+    height: 90%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.hero-img > img{
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px rgb(54, 53, 53);
+    filter: brightness(2.9);
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-child{
+ width: 35%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+ gap: 20px;
+ padding: 15px 0px 0px 20px;
+ 
+}
+
+p{
+    height: 120px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 0px 0px 10px rgb(219, 236, 255);
+    overflow:scroll;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+h2{
+    font-size: xxx-large;
+    text-shadow: 0px 0px 50px white;
+}
+button{
+    font-size: x-large;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+button:hover{
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px white;
+}
+
+i{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    transition: 0.3s ease;
+    color: red;
+    background-color: white;
+}
+
+i:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(255, 11, 11);
+}
+
+
+.left{
+    position: absolute;
+    left: 50px;
+}
+
+.right{
+    position: absolute;
+    right: 50px;
+}

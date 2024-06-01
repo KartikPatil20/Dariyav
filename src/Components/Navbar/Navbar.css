@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    max-height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    transition: all ease-in 0.2s;
+    margin-bottom: 70px;
+    overflow-x: scroll;
+    z-index: 10;
+    background-color: rgb(201, 210, 218);
+    
+}
+
+nav:hover{
+    box-shadow: 0px 0px 50px 0px rgb(141, 141, 141);
+    border-radius: 0px 0px 100px 100px;
+}
+
+.img-container{
+    height: 100%;
+    width: 80px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.child-container{
+    display: flex;
+    gap: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+
+a:hover{
+    box-shadow: 0px 3px rgb(231, 43, 93);
+}
