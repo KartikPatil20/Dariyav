@@ -35,7 +35,7 @@ const Slider = () => {
     
               <div className="hero-child">
                 <h2>Major Project</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate dolorum explicabo maiores magni distinctio laborum labore iste cumque minima! Blanditiis assumenda obcaecati temporibus vero pariatur voluptas cupiditate aperiam velit.</p>
+                <p className='slider-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate dolorum explicabo maiores magni distinctio laborum labore iste cumque minima! Blanditiis assumenda obcaecati temporibus vero pariatur voluptas cupiditate aperiam velit.</p>
                 <button>Learn More</button>
               </div>
               <div className="hero-img">

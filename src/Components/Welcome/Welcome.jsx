@@ -11,7 +11,9 @@ const Welcome = () => {
         <div className="welcome-text">
             <div className="child-1">
                 <h1>Welcome to <span>Dariyav</span> </h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repellat qui hic magnam? Veniam natus ad ipsa cum iusto illo, dicta facilis atque consectetur aliquid nesciunt, sequi delectus! Minima, unde.</p>
+                <p>SDGPL serves Indian market with quality tested glass which ensures safety and efficient installation. Glass is an object that lightens the weight of constructing any infrastructure.
+
+With our dedication and skills, we provide best services to meet requirements of clients. Our values are based on our actual beliefs and practice.</p>
             </div>
             <div className="child-2">
                 <div className="info">

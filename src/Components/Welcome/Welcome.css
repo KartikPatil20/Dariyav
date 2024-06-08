@@ -1,5 +1,6 @@
 .welcome{
     width: 80vw;
+    min-height: 500px;
     border-radius: 100px;
     box-shadow: 50px 50px 80px 10px rgb(136, 132, 132);
     margin-top: 100px;
@@ -12,7 +13,6 @@
 .welcome-logo > img{
     width: 150px;
     height: 150px;
-    box-shadow: 0px 0px 10px blue, inset 0px 0px 10px blue;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -24,12 +24,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    gap: 50px;
 }
 
 span{
     font-size: 50px;
     color: rgb(34, 34, 162);
-    text-shadow: 0px 0px 10px rgb(48, 199, 233);
 }
 
 .child-1{
@@ -53,8 +53,19 @@ span{
     text-align: justify;
     font-size: 20px;
     overflow: scroll;
+    line-height: 35px;
+}
+
+.child-1 > p::-webkit-scrollbar{
+    height: 0;
+    width: 0;
 }
 
 .info > h6{
     font-size: 25px;
+}
+
+.info > p{
+    padding-top: 10px;
+    font-size: 30px;
 }

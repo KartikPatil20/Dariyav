@@ -5,6 +5,7 @@ import Welcome from './Components/Welcome/Welcome'
 import Products from './Components/Products/Products'
 import Footer from './Components/Footer/Footer'
 import Loader from './Components/Loader/Loader'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 const App = () => {
 
@@ -13,7 +14,7 @@ const App = () => {
   useEffect(()=>{
    setTimeout(() => {
     setIsLoading(false)
-   }, 3000); 
+   }, 5000); 
   })
 
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Slider />
       <Welcome />
       <Products />
+      <Testimonials />
       <Footer />
         </>
       }

@@ -9,7 +9,7 @@
     transition: all ease-in-out 0.3s;
     gap: 15px;
     animation-name: bg;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 @keyframes bg{
@@ -31,7 +31,7 @@
     height: 300px;
     width: 300px;
     animation-name: animate;
-    animation-duration: 3s;
+    animation-duration: 5s;
     opacity: 0;
 }
 
@@ -58,7 +58,7 @@
     font-style: italic;
     animation-name: animate;
     opacity: 0;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-delay: 1s;
 }
 
