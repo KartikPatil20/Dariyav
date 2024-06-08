@@ -14,7 +14,6 @@ nav{
     padding: 0px 150px;
     transition: all ease-in 0.2s;
     margin-bottom: 70px;
-    overflow-x: scroll;
     z-index: 10;
     background-color: rgb(201, 210, 218);
     

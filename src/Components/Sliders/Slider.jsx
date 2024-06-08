@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import '../Sliders/Slider.css'
-
+import img1 from '../../assets/slider-1.png'
+import img2 from '../../assets/slider-2.png'
 
 const Slider = () => {
 
-  const gb = ['slider-1.png', 'slider-2.png'];
+  const gb = [img1, img2];
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -29,7 +30,7 @@ const Slider = () => {
         <i class="fi fi-rs-angle-small-left left" onClick={prevSlide}></i>
 
         <section  className= {`Hero  `} style={{
-              backgroundImage: `url(/src/assets/${gb[currentSlide]})`
+              backgroundImage: `url(${gb[currentSlide]})`
             }}>
     
               <div className="hero-child">
@@ -38,7 +39,7 @@ const Slider = () => {
                 <button>Learn More</button>
               </div>
               <div className="hero-img">
-                <img src={`/src/assets/${gb[currentSlide]}`} alt="Project" />
+                <img src={`${gb[currentSlide]}`} alt="Project" />
               </div>
             </section>
 

@@ -65,10 +65,18 @@ p{
     text-shadow: 0px 0px 10px rgb(219, 236, 255);
     overflow:scroll;
     scroll-behavior: smooth;
+    transition: all ease-in-out 0.2s;
+    padding: 10px;
 }
 
-::-webkit-scrollbar{
+p:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white, inset 0px 0px 10px white;
+}
+
+p::-webkit-scrollbar{
     width: 0px;
+    height: 0px;
 }
 
 h2{

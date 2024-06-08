@@ -1,6 +1,7 @@
-import React from 'react'
-import '../Products/Products.css'
-import one from '../../assets/1.png'
+import React from 'react';
+import '../Products/Products.css';
+import one from '../../assets/1.png';
+
 
 const Products = () => {
     return (
@@ -60,6 +61,7 @@ const Products = () => {
                 </div>
             </div>
         </section>
+
     )
 }
 
